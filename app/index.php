@@ -1,17 +1,50 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
+<?php  
+    require_once 'views/head.php';
+    //require_once 'models/classes.php';
+    head('Home');
+?>
+
     <body>
-        <?php
-        // put your code here
-        ?>
+        <!-- Navigation -->
+        <div clas="navbar">
+            
+        </div>
+
+        <!--- Image Slider -->
+
+
+        <!--- Jumbotron -->
+
+
+        <!--- Welcome Section -->
+
+
+        <!--- Three Column Section -->
+
+
+        <!--- Two Column Section -->
+
+
+        <!--- Fixed background -->
+
+
+        <!--- Emoji Section -->
+
+
+        <!--- Meet the team -->
+
+
+        <!--- Cards -->
+
+
+        <!--- Two Column Section -->
+
+
+        <!--- Connect -->
+
+
+        <!--- Footer -->
+
     </body>
+    
 </html>

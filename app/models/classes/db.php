@@ -5,7 +5,7 @@
  * @author Ewerton
  */
 
-require_once '..\interfaces\dbControl.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/app/models/interfaces/dbControl.php';
 
 class db implements dbControl{
     private static $_instance = null;
