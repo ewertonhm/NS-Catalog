@@ -1,6 +1,6 @@
 <?php  
     require_once 'views/head.php';
-    //require_once 'models/classes.php';
+    require_once 'models/classes.php';
     head('Home');
 ?>
 

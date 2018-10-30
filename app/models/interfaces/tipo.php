@@ -4,8 +4,8 @@
  * @author Ewerton
  */
 interface tipo {
-    public function criarTipo();
-    public function lerTipo();
-    public function editarTipo();
-    public function excluirTipo();
+    public function criarTipo($nome = '');
+    public function lerTipo($id = '');
+    public function editarTipo($nome = '');
+    public function excluirTipo($id = '');
 }

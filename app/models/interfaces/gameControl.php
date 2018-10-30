@@ -4,8 +4,8 @@
  * @author Ewerton
  */
 interface gameControl {
-    public function adicionarJogo();
-    public function editarJogo();
-    public function excluirJogo();
-    public function lerJogo();
+    public function adicionarJogo($nome = '', $data = '', $links = []);
+    public function editarJogo($nome = '', $data = '', $dev = '', $tipo = '', $links = [], $id_links = []);
+    public function excluirJogo($id = '');
+    public function lerJogo($id = '');
 }

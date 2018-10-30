@@ -49,15 +49,18 @@ class Links implements link{
         $this->id_jogo = $id_jogo;
     }
     
-    public function __construct() {
-        ;
+    public function __construct($id_jogo) {
+        $this->setId_jogo($id_jogo);
     }
     public function criarLink($link = '') {
         if($link != NULL){
             $this->setLink($link);
         }
-        $tipo = ['link'=>$this->getLink()];
-        $this->db->insert($this->getTable(),$tipo);
+        $linkinsert = [
+                'link'=>$this->getLink(),
+                'id_jogo'=>$this->getId_jogo()       
+            ];
+        $this->db->insert($this->getTable(),$linkinsert);
         $this->setId($this->db->get_lastInsertID());        
     }
 

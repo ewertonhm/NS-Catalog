@@ -11,8 +11,9 @@
  * @author Prof Arquimedes
  */
 interface link {
-    public function criarLink();
-    public function excluirLink();
-    public function editarLink();
-    public function lerLink();
+    public function criarLink($link = '');
+    public function excluirLink($link = '');
+    public function editarLink($link = '');
+    public function lerLink($id = '');
+    public function lerLinkJogo($id_jogo = '');
 }

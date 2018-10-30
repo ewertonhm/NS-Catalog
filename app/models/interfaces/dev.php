@@ -11,8 +11,8 @@
  * @author Ewerton
  */
 interface dev {
-    public function lerDev();
-    public function editarDev();
-    public function criarDev();
-    public function excluirDev();
+    public function lerDev($id = '');
+    public function editarDev($nome = '');
+    public function criarDev($nome = '');
+    public function excluirDev($id = '');
 }
